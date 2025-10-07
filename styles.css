@@ -1,0 +1,26 @@
+.border-dashed {
+    border: 3px dashed;
+    border-radius: 5%;
+}
+
+.ms-6 {
+  margin-left: 5.5rem !important;
+}
+
+.ms-7 {
+  margin-left: 10rem !important;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+.animated-icon {
+  animation: pulse 1.5s infinite;
+  display: inline-block; /* pour éviter les problèmes d’animation */
+}
+
+.ps-7 {
+  padding-left: 20rem !important;
+}
